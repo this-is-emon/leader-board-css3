@@ -1,3 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway&family=Roboto+Mono:ital@1&display=swap');
+
+/* common styles and utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color:  #E5E5E5;
+}
+.container{
+    background-color: #FFFFFF;
+}
 /* Top players styles */
 .players{
     display: grid;
