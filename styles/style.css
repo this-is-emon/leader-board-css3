@@ -18,13 +18,22 @@ main{
     padding: 30px;
 }
 /* Top players styles */
+.top-players{
+    
+}
 .section-title{
+    margin-top:3px;
     color:#562EFF;
     font-size: 24px;
 }
 .players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+
 }
 .player{
     display: flex;
@@ -32,6 +41,7 @@ main{
 }
 .player-name{
     margin-left: 16px;
+    font-size: 18px;
 }
 .player img{
     width: 56px;
