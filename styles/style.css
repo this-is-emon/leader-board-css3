@@ -18,7 +18,9 @@ main{
     padding: 30px;
 }
 /* Top players styles */
-
+.top-players{
+    margin-bottom: 30px;
+}
 .section-title{
     margin-top:3px;
     color:#562EFF;
@@ -27,7 +29,7 @@ main{
 .players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 30px;
+   
 }
 hr{
     border: 1px solid #D1D1D1;
