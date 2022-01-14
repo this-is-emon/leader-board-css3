@@ -8,10 +8,20 @@ body{
     font-family: 'Roboto Mono', monospace;
     background-color:  #E5E5E5;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 .container{
     background-color: #FFFFFF;
+    width: 850px;
+    padding: 30px;
 }
 /* Top players styles */
+.section-title{
+    color:#562EFF;
+    font-size: 24px;
+}
 .players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,6 +29,9 @@ body{
 .player{
     display: flex;
     align-items: center;
+}
+.player-name{
+    margin-left: 16px;
 }
 .player img{
     width: 56px;
