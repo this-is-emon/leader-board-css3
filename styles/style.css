@@ -82,6 +82,9 @@ hr{
 }
 
 /* Couses Style */
+.courses{
+    display: flex;
+}
 .course .course-banner img{
     width: 224px;
     height: 104px;
